@@ -1,0 +1,4 @@
+1 Argentina 3 1 Francia
+2 Argentina 1 2 Arabia Saudita
+3 Polonia 3 3 Mexico
+4 Alemania 0 0 Portugal
