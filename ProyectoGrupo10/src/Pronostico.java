@@ -27,4 +27,17 @@ public class Pronostico {
     public void setResultado(String resultado) {
         this.resultado = resultado;
     }
+<<<<<<< Upstream, based on origin/master
 }
+=======
+    
+    public void setGanaEquipo2(int ganaEquipo2) {
+        this.ganaEquipo2 = ganaEquipo2;
+    }
+
+    public int getGanaEquipo2 () {
+    	return ganaEquipo2;
+    }
+    
+}
+>>>>>>> ebe1d28 a
