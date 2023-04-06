@@ -2,34 +2,42 @@ public class Pronostico {
     
     private Equipo equipo1;
     private Equipo equipo2;
-    private String resultado;
+    private int ganaEquipo1;
+    private int empate;
+    private int ganaEquipo2;
 
-    public Equipo getEquipo1() {
-        return equipo1;
-    }
 
     public void setEquipo1(Equipo equipo1) {
         this.equipo1 = equipo1;
+    }
+    
+    public Equipo getEquipo1() {
+        return equipo1;
+    }
+    
+    public void setEquipo2(Equipo equipo2) {
+        this.equipo2 = equipo2;
     }
 
     public Equipo getEquipo2() {
         return equipo2;
     }
 
-    public void setEquipo2(Equipo equipo2) {
-        this.equipo2 = equipo2;
+    public void setGanaEquipo1(int ganaEquipo1) {
+        this.ganaEquipo1 = ganaEquipo1;
     }
 
-    public String getResultado() {
-        return resultado;
+    public int getGanaEquipo1 () {
+    	return ganaEquipo1;
+    }
+    
+    public void setEmpate(int emp) {
+        this.empate = emp;
     }
 
-    public void setResultado(String resultado) {
-        this.resultado = resultado;
+    public int getEmpate () {
+    	return empate;
     }
-<<<<<<< Upstream, based on origin/master
-}
-=======
     
     public void setGanaEquipo2(int ganaEquipo2) {
         this.ganaEquipo2 = ganaEquipo2;
@@ -40,4 +48,3 @@ public class Pronostico {
     }
     
 }
->>>>>>> ebe1d28 a
